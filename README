@@ -1,9 +1,14 @@
 2012 jeff bryner
 @p0wnlabs
 
+
 Simple python script to ping a bluetooth device and lock the screen using xscreensaver when 
 the device is out of bluetooth range.
 
-When the device returns it will resume monitoring for the device to leave again and re- 
-lock the screen if it goes out of bluetooth range.
+When the device returns it will 
+1) Play the back.wav file using aslaplayer 
+2) Resume monitoring for the device to leave again 
+3) Re-lock the screen if it goes out of bluetooth range.
 
+Requires the pybluez bluetooth library
+Replace back.wav with any file you want it to play when you or your device returns.

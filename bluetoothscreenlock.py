@@ -4,6 +4,7 @@
 #@p0wnlabs
 #
 #Simple python script to ping a bluetooth device and lock the screen using xscreensaver when it goes away
+#Requires pybluez library
 #
 #
 
