@@ -41,6 +41,8 @@ while True:
         if btsocket.send("hey"):
             if VERBOSE: 
                 print("found device..")
+            if not deviceInRange:
+                os.system("alsaplayer -q back.wav")
             deviceInRange=True
             hitcount=0
             screenLocked=False
