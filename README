@@ -1,0 +1,9 @@
+2012 jeff bryner
+@p0wnlabs
+
+Simple python script to ping a bluetooth device and lock the screen using xscreensaver when 
+the device is out of bluetooth range.
+
+When the device returns it will resume monitoring for the device to leave again and re- 
+lock the screen if it goes out of bluetooth range.
+
